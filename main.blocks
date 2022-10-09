@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="f=jrG{@8m(uB8$+|xUff">Mano</variable></variables><block type="device_button_event" id="gmy,eK[;H8`Qqg;Cm0k$" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="(JwG%gb~iDAt0?9N%%7+"><field name="VAR" id="f=jrG{@8m(uB8$+|xUff">Mano</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="AH?13nNt.p[y7S84?aW#"><value name="min"><shadow type="math_number" id="$_m{,cPHGHgO5B,~M=3="><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="r::4.vxB|U.vf)#[=K%Q"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="A-Ff*chDq$qncqcWWZ4}"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="6pXgj%^a?N[[%Y12)qrl"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="tjJA?9*E@j|??*s::yRF"><field name="VAR" id="f=jrG{@8m(uB8$+|xUff">Mano</field></block></value><value name="B"><shadow type="math_number" id="A6sqN#|/YExn@/5giHB}"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="2N(,js!om{PrHpJjwgVv"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="=cvNd$-s,)*=l{WI:{3A"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="){oebMvEnhNn@6[[D8Zm"><field name="VAR" id="f=jrG{@8m(uB8$+|xUff">Mano</field></block></value><value name="B"><shadow type="math_number" id="Trp|xw1i6;{Fq$CF]qEG"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id=".YIpIj=8GQmq!`F(J?C}"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="NMY[kaYcO0._ihHWgpuU"><field name="i">IconNames.Scissors</field></block></statement></block></next></block></statement></block></xml>
